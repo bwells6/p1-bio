@@ -1,8 +1,108 @@
 /* Your Website Styles */
+html{
+background: url(../img/subtle_surface.png);
+}
+body{
+	font-family: 'Advent Pro', sans-serif;
+	color:black;
+  letter-spacing:.1em;
+  margin:3em;
+}
+.top {
+text-align: right;
+}
+article .col{
+  background: blue;
+  margin-top:10px;
+ 
+}
+section {
+  
+  text-align: center;
+}
 
+
+footer{
+  background: #333;
+  color: white;
+}
+
+footer div img {
+
+  background: #555;
+  margin-top: 3px;
+  border-radius: 50px;
+  height: 50px;
+  line-height: 50px;
+  width: 50px;
+  text-align: center;
+  
+}
+
+footer div img:hover{
+  background:white;
+
+}
+section img{
+	border: 3px solid white;
+   }
+
+
+.me	img{
+  margin-bottom: 2em;
+	margin-left: 4em;
+	margin-top: 2em;
+	border: 3px solid white;
+}
+
+
+
+
+
+
+
+nav {
+	margin-top: 6em;
+  margin-right:2em;
+	text-align: center;
+	font-size: 1.25em;
+  
+  
+  }	
+	
+nav ul {
+  border-radius: .25em;   
+  background: gray;
+  list-style:none;
+  text-align: center;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+  }
+
+nav li { 
+  position:relative; 
+  display:inline-block; 
+  border-bottom: none;
+  border-radius: .25em .25em 0 0;
+  }
+
+nav li:hover { box-shadow: 0 -5px 0 #333; }
+
+nav a { 
+  color:white;
+  display:block;
+  padding: .5em;  
+  text-decoration:none;
+  }
+
+nav a:hover {
+  border-radius: 0 0 .25em .25em;
+  background: #333;
+  box-shadow: 0 5px 0 #333;
+  color:white;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+  }
 
 /* Show Grid */
 .showgrid {
 	background: url("../img/grid-bg.png") repeat-y;
-	background: orange;
 }
