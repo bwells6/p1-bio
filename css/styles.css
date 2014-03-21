@@ -44,20 +44,28 @@ footer div p{
   text-align: right;
 }
 section img{
-	border: 3px solid white;
+  border: 3px solid white;
    }
-
-
-.me	img{
-  margin-bottom: 2em;
-	margin-left: 4em;
-	margin-top: 2em;
-	border: 3px solid white;
+aside img {
+   border: 3px solid white;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.3);
 }
+
+.me img{
+  margin-bottom: 2em;
+  margin-left: 2em;
+  margin-top: 2em;
+  
+}
+
+
 h1{
   font-size: 3em;
 }
-
+p a{
+  text-decoration: none;
+  color:green;
+}
 
 
 
