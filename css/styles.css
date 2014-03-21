@@ -16,10 +16,7 @@ article .col{
   margin-top:10px;
  
 }
-section {
-  
-  text-align: center;
-}
+
 
 
 footer{
@@ -43,6 +40,9 @@ footer div img:hover{
   background:white;
 
 }
+footer div p{
+  text-align: right;
+}
 section img{
 	border: 3px solid white;
    }
@@ -54,7 +54,9 @@ section img{
 	margin-top: 2em;
 	border: 3px solid white;
 }
-
+h1{
+  font-size: 3em;
+}
 
 
 
